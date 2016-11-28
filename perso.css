@@ -1,0 +1,26 @@
+.bloc_perso {
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: moccasin;
+}
+.photo {
+	margin-top: 10px;
+	border: 2px invisible black;
+	border-radius: 20%;
+	padding: 5px;
+	display: block;
+	width: 50%;
+}
+.flex1 {
+	flex: 1;
+}
+.txtjusti {
+	text-align: justify;
+}
+.pad10 {
+	padding: 5px;
+	margin: 5px;
+}
+.margLR {
+	margin: 0 10px;
+}
