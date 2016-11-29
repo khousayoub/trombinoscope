@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5 {
 
 .flip-container, .front, .back {
 	width: 130px;
-	height: 77px;
+	height: 80px;
 }
 
 /* flip speed goes here */
