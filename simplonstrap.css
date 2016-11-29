@@ -41,7 +41,7 @@ a, a:target, a:visited, a:active {
 img {
     max-width: 100%;
 }
-h1,h2,h3,h4,h5 {}
+
 /* -----------------------------------------------Helper Class */
 
 
@@ -586,7 +586,7 @@ code {
 /* -----------------------------------------------Buttons */
 
 .btn {
-    padding: 8px 0px;
+    padding: 8px;
     width: 100px;
     border: 1px solid #CCCCCC;
     border-radius: 5px;

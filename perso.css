@@ -1,3 +1,6 @@
+h1,h2,h3,h4,h5 {
+	margin: 0;
+}
 .bloc_perso {
 	border-radius: 10px;
 	background-color: moccasin;
@@ -85,4 +88,14 @@
 }
 .flexcol {
 	flex-direction: column;
+}
+.alignItems {
+	align-items: center;
+}
+.btn-perso {
+	border: 1px inset grey;
+	box-shadow: 1px 1px 1px black;
+}
+.justcontent {
+	justify-content: center;
 }
