@@ -283,6 +283,57 @@ code {
     display: block;
 }
 
+/* ----------------------------------------------- FlexGrid */
+
+.containflex {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.colnorm {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.coltiny {
+    flex: 0.5;
+    box-sizing: border-box;
+}
+
+.colmedium {
+    flex: 2;
+    box-sizing: border-box;
+}
+
+.colbig {
+    flex: 4;
+    box-sizing: border-box;
+}
+
+.colflexnorm {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.colflextiny {
+    display: flex;
+    flex: 0.5;
+    box-sizing: border-box;
+}
+
+.colflexmedium {
+    display: flex;
+    flex: 2;
+    box-sizing: border-box;
+}
+
+.colflexbig {
+    display: flex;
+    flex: 4;
+    box-sizing: border-box;
+}
 /* -----------------------------------------------Grid */
 
 /*- The Responsive Grid */
