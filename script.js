@@ -6,7 +6,7 @@ for (let i=0 ; i<flip.length; i++) {
 		}
 		});
 	}
-let cont = document.querySelectorAll(".flip-container");
+/*let cont = document.querySelectorAll(".flip-container");
 	for (let i=0 ; i < cont.length ; i++) {
 		cont[i].addEventListener("click", function () {
 			if (window.outerWidth <= "1024")  {
@@ -14,7 +14,7 @@ let cont = document.querySelectorAll(".flip-container");
 				this.classList.add("flip-container-resp");
 				}
 		});
-}
+}*/
 
 
 
