@@ -36,9 +36,9 @@ h1,h2,h3,h4,h5 {
 	height: 410px;
 }
 
-.flip-container:hover .flipper{
+/*.flip-container:hover .flipper{
 	transform: rotateY(180deg);
-}
+}*/
 
  .flipped .front {
   -webkit-transform: rotateY(-180deg);
