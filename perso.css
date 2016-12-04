@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5 {
 	box-sizing: border-box;
 	box-shadow: 1px 1px 15px black;
 }
+#bloc_accueil {
+	padding: 20px;
+	width: 70%;
+}
 .icon {
 	width: 13%;
 }
@@ -21,10 +25,18 @@ h1,h2,h3,h4,h5 {
 	text-align: left;
 	width: 100%;
 }
+.nav {
+	z-index: 3;
+	position: fixed;
+	height: 50px;
+}
 .footer {
+	position: fixed;
 	bottom: 0;
 	background-color: #2f3036;
 	color: white;
+	height: 50px;
+	width: 100%;
 }
 .pad10 {
 	padding: 5px;
@@ -110,6 +122,19 @@ h1,h2,h3,h4,h5 {
 .nav_vert ul>.collapse{
 	position: initial;
 	margin-left: 3%;
+}
+#contact_container {
+	height: 100vh;
+}
+#accueil_container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form {
+	width: 70%;
+	margin: auto;
 }
 @media screen and (max-width: 800px) {
 
