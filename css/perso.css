@@ -6,7 +6,7 @@ body {
 }
 .bloc_perso {
 	border-radius: 10px;
-	background-color: moccasin;
+	background-color: white;
 	box-sizing: border-box;
 	box-shadow: 1px 1px 15px black;
 }
@@ -16,8 +16,12 @@ body {
 }
 .icon {
 	width: 11%;
+	cursor:auto;
 }
-
+.icon:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
 .flex1 {
 	flex: 1;
 }
@@ -91,8 +95,6 @@ body {
 }
 
 .front {
-	background-image: url("../images/tof.jpg");
-	background-repeat: round;
 	z-index: 2;
 }
 
@@ -136,8 +138,14 @@ body {
 	align-items: center;
 }
 .form {
-	width: 70%;
+	width: 80%;
 	margin: auto;
+}
+.field_wid {
+	width: 50%;
+}
+.marg-l {
+	margin-left: 10px;
 }
 @media screen and (max-width: 800px) {
 
