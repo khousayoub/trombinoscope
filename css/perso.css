@@ -1,6 +1,9 @@
 h1,h2,h3,h4,h5 {
 	margin: 0;
 }
+body {
+	background-image: url("../images/background.jpg");
+}
 .bloc_perso {
 	border-radius: 10px;
 	background-color: moccasin;
@@ -12,7 +15,7 @@ h1,h2,h3,h4,h5 {
 	width: 70%;
 }
 .icon {
-	width: 13%;
+	width: 11%;
 }
 
 .flex1 {
