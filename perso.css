@@ -1,4 +1,10 @@
 
+.containflex {
+	background: url("img/bg1.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
 h1,h2,h3,h4,h5 {
 	margin: 0;
 }
