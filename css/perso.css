@@ -116,7 +116,7 @@ body {
 .nav_vert {
 	visibility: initial!important;
 	z-index: 3;
-	width: 20%;
+	width: 50%;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -125,6 +125,7 @@ body {
 	background-color: #2f3036;
 	box-shadow: 1px 1px 1px 5px #2f3036;
 	transition: visibility 1s, width 1s, height 1s
+	position:fixed;
 }
 .nav_vert ul>.collapse{
 	position: initial;
