@@ -9,13 +9,22 @@ h1,h2,h3,h4,h5 {
 }
 .icon {
 	width: 13%;
-
 }
+
 .flex1 {
 	flex: 1;
 }
 .txtjusti {
 	text-align: justify;
+}
+.tl {
+	text-align: left;
+	width: 100%;
+}
+.footer {
+	bottom: 0;
+	background-color: #2f3036;
+	color: white;
 }
 .pad10 {
 	padding: 5px;
@@ -30,15 +39,10 @@ h1,h2,h3,h4,h5 {
 .flip-container {
 	perspective: 100%;
 }
-.flip-container-resp {
-	perspective: 100%;
-	width: 300px;
-	height: 410px;
-}
 
-/*.flip-container:hover .flipper{
+.flip-container:hover .flipper{
 	transform: rotateY(180deg);
-}*/
+}
 
  .flipped .front {
   -webkit-transform: rotateY(-180deg);
@@ -57,14 +61,12 @@ h1,h2,h3,h4,h5 {
 	height: 410px;
 }
 
-/* flip speed goes here */
 .flipper {
 	transition: transform 1s;
 	transform-style: preserve-3d;
 	position: relative;
 }
 
-/* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
 	position: absolute;
@@ -73,17 +75,14 @@ h1,h2,h3,h4,h5 {
 	transition: 1s;
 }
 
-/* front pane, placed above back */
 .front {
 	background-image: url("tof.jpg");
 	background-repeat: round;
 	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
 }
 
-/* back, initially hidden pane */
 .back {
+	padding: 10px;
 	transform: rotateY(180deg);
 }
 .flexcol {
@@ -92,10 +91,48 @@ h1,h2,h3,h4,h5 {
 .alignItems {
 	align-items: center;
 }
-.btn-perso {
-	border: 1px inset grey;
-	box-shadow: 1px 1px 1px black;
+.nav ul>.collapse {
+	display: none;
 }
-.justcontent {
+.nav_vert {
+	visibility: initial!important;
+	z-index: 3;
+	width: 20%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	background-color: #2f3036;
+	box-shadow: 1px 1px 1px 5px #2f3036;
+	transition: visibility 1s, width 1s, height 1s
 }
+.nav_vert ul>.collapse{
+	position: initial;
+	margin-left: 3%;
+}
+@media screen and (max-width: 800px) {
+
+	.nav {
+		visibility: hidden;
+		position: absolute;
+		;
+	}
+	.nav>ul {
+		display: block;
+	}
+	.nav>ul>.collapse {
+		z-index: 3;
+		width: 40px;
+		position: fixed;
+		display: block;
+		visibility: initial;
+		top:10px;
+		left:10px;
+		border: 1px solid white;
+	}
+	.collapse>li {
+		font-size: 30px;
+	}
+}
+
