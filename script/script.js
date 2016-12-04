@@ -1,7 +1,7 @@
 let flip = document.querySelectorAll(".flipper");
 for (let i=0 ; i<flip.length; i++) {
 	flip[i].addEventListener("click", function() {
-		if (window.outerWidth <= "1000") {
+		if (window.outerWidth <= "2000") {
 			this.classList.toggle("flipped");
 		}
 		});

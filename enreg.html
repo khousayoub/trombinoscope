@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Trombino-TRIOCOM</title>
-	<link rel="stylesheet" type="text/css" href="simplonstrap.css">
-	<link rel="stylesheet" type="text/css" href="perso.css">
+	<link rel="stylesheet" type="text/css" href="css/simplonstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/perso.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
@@ -16,9 +16,75 @@
 		<li><a>S'enregistrer</a></li>
 	</ul>
 </div>
+<div id = "contact_container" class="alignItems containflex">
+	<form class="form">
+	<h2>S'inscrire :</h2>
+		<div class="dflexcenter">
+		<fieldset class="field_wid">
+			<legend>Informations personnelles : </legend>
+			<div>
+			<label>Civilité : </label>
+				<input type="radio" name="sexe">Mr
+				<input type="radio" name="sexe">Mme
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" placeholder="Votre nom">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="nom">Nom de naissance :</label>
+				<input type="text" name="nom" placeholder="Nom de jeune fille">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="dnais">Date de naissance :</label>
+				<input type="Date" name="dnais">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="lnais">Lieu de naissance :</label>
+				<input type="text" name="lnais">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="addr">Adresse :</label>
+				<input type="text" name="addr" placeholder="Votre numéro de télephone">
+			</div>
+		</fieldset>
+		<fieldset class="field_wid">
+			<legend>Contact : </legend>
+				<div class="dflexcenter dflexsp-b">
+				<label for="tel">Télephone portable : </label>
+			<input type="tel" name="tel" placeholder="06 .. .. .. ..">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="mail">Mail : </label>
+				<input type="mail" name="mail" placeholder="Votre mail">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="af">Adresse Facebook : </label>
+				<input type="mail" name="af" placeholder="http://www.Facebook.com">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="at">Adresse Twitter : </label>
+				<input type="mail" name="at" placeholder="http://www.Twitter.com">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="site">Adresse LinkedIn : </label>
+				<input type="mail" name="site" placeholder="http://www.linkedIn.com">
+			</div>
+			<div class="dflexcenter dflexsp-b">
+				<label for="site">Site web personnel : </label>
+				<input type="mail" name="site" placeholder="http://www.ad.com">
+			</div>
+		</fieldset>
+		</div>
+		<div class="dflexcenter">
+			<button type="submit" class="btn vld">Confirmer</button>
+			<button type="submit" class="btn anl marg-l">Reset</button>
+		</div>
+	</form>
+</div>
 <div class="footer dflexcenter h50p alignItems">
 		<div class="">Copyright TRIOCOM Team 2016 Trombinololz
 </div>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>

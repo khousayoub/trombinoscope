@@ -2,9 +2,12 @@
 h1,h2,h3,h4,h5 {
 	margin: 0;
 }
+body {
+	background-image: url("../images/background.jpg");
+}
 .bloc_perso {
 	border-radius: 10px;
-	background-color: moccasin;
+	background-color: white;
 	box-sizing: border-box;
 	box-shadow: 1px 1px 15px black;
 }
@@ -13,9 +16,13 @@ h1,h2,h3,h4,h5 {
 	width: 70%;
 }
 .icon {
-	width: 13%;
+	width: 11%;
+	cursor:auto;
 }
-
+.icon:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
 .flex1 {
 	flex: 1;
 }
@@ -88,34 +95,7 @@ h1,h2,h3,h4,h5 {
 	transition: 1s;
 }
 
-.front1 {
-	background-image: url("img/7.png");
-	background-repeat: round;
-	z-index: 2;
-}
-.front2 {
-	background-image: url("img/8.png");
-	background-repeat: round;
-	z-index: 2;
-}
-.front3 {
-	background-image: url("img/11.png");
-	background-repeat: round;
-	z-index: 2;
-}
-.front4 {
-	background-image: url("img/4.png");
-	background-repeat: round;
-	z-index: 2;
-}
-.front5 {
-	background-image: url("img/5.png");
-	background-repeat: round;
-	z-index: 2;
-}
-.front6 {
-	background-image: url("img/6.png");
-	background-repeat: round;
+.front {
 	z-index: 2;
 }
 
@@ -159,8 +139,14 @@ h1,h2,h3,h4,h5 {
 	align-items: center;
 }
 .form {
-	width: 70%;
+	width: 80%;
 	margin: auto;
+}
+.field_wid {
+	width: 50%;
+}
+.marg-l {
+	margin-left: 10px;
 }
 @media screen and (max-width: 800px) {
 
